@@ -1,0 +1,6 @@
+@(src)/**/__tests__/**/*-test*.js*
+--compilers js:babel-register
+--recursive
+--reporter min
+--require test/babelhook
+--timeout 5000

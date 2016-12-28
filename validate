@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+time npm run validate
+
+#while true; do
+#  time npm run validate
+#    echo -e "\nWait Changes"
+#    inotifywait -qr -e modify -e create -e move -e delete .
+#done

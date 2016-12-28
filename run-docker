@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build --pull -t metisto/rental-movie .
+docker run --volume $(pwd):/usr/src/app -it metisto/rental-movie bash
