@@ -1,9 +1,10 @@
 {
   "name": "rental-movie",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rental movie kata refactoring",
+  "homepage": "https://github.com/metisto/rental-movie-javascript",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "CC-BY-4.0",
   "scripts": {
     "inspect": "jsinspect -t 30 -i -j --ignore -test.js src",
     "lint": "eslint --ext .js src",
