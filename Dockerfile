@@ -10,10 +10,5 @@ RUN apt-get update \
  && mkdir /var/run/sshd
 
 WORKDIR /usr/src/app
-# Dependecies
-COPY package.json /usr/src/app/
-#RUN bash -c 'time npm install --quiet --progress=false --no-optional'
 
-# Sources & tests
 COPY . /usr/src/app/
-#RUN bash -c 'time npm run validate'
