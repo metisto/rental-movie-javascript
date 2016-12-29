@@ -12,12 +12,12 @@ describe('statement', () => {
 
   it('should blah', () => {
     const customer = {
-      'name': 'martin',
+      'name': 'Jhon Doe',
       'rentals': [
         { 'movieID': 'F001', 'days': 3 },
         { 'movieID': 'F002', 'days': 1 },
       ],
     };
-    expect(statement(customer, movies)).toEqual('Rental Record for martin\n\tStar Wars\t3.5\n\tAssasin\'s creed\t3\nAmount owed is 6.5\nYou earned 2 frequent renter points\n');
+    expect(statement(customer, movies)).toEqual('Rental Record for Jhon Doe\n\tStar Wars\t3.5\n\tAssasin\'s creed\t3\nAmount owed is 6.5\nYou earned 2 frequent renter points\n');
   });
 });
