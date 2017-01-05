@@ -3,7 +3,7 @@
 // the babel transpiler is activated prior to any
 // test code, and using the same babel options
 
-require("babel-register")();
+require('babel-register')();
 
 //Set global
 global.__DEVELOPMENT__ = true;
